@@ -13,8 +13,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # Runs every 6 hours to check for new releases
-    - cron: '0 */6 * * *'
+    # Runs every 3 hours to check for new releases
+    - cron: '0 */3 * * *'
 
 permissions:
   contents: write
